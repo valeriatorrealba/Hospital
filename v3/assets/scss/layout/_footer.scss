@@ -13,13 +13,15 @@
     margin: 5px;
     width: 400px;
     display: inline-block;
+    p{
+        padding: 2px 0;
+        margin-bottom:0;
+    }
 }
 .footer__image img{
     width: 15%;
 }
-p{
-    padding: 2px 0;
-}
+
 .footer__icon{
     font-size: 1.3rem;
     padding: 1px;

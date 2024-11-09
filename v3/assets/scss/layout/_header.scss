@@ -2,19 +2,12 @@
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
-}
-
 .header{
     background-color: $primary-color;
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .header__image img{
@@ -33,14 +26,18 @@ ul{
     background-color: $primary-color;
     max-height: 0;
     transition: max-height .5s ease-out;
+    
+    ul{    
+        list-style: none;    
+    }
 }
 
 .nav__menu a{
     display: block;
     padding: 30px;
     color: $text-color-white;
+    text-decoration: none;
 }
-
 .nav__menu a:hover a{
     background-color: $primary-color;
 }
