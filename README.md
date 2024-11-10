@@ -21,6 +21,11 @@ http://127.0.0.1:5500/v1/index.html
 ``` bash
 http://127.0.0.1:5500/v2/index.html
 ``` 
+6. Accede al index.html en tu navegador desde la carpeta v3 para ver la segunda versión
+
+``` bash
+http://127.0.0.1:5500/v3/index.html
+``` 
 
 ## Estructura de carpetas y archivos
 ``` bash
@@ -42,7 +47,8 @@ Hospital/
 │   │   └──     
 │   │
 │   └── Sass/
-│       ├── abstrats/   
+│       ├── abstrats/ 
+│       │   ├── _mixins.scss  
 │       │   └── _variables.scss
 │       ├── base/   
 │       │   └── _normalize.scss
@@ -58,7 +64,7 @@ Hospital/
 │       ├── themes/   
 │       │   └── _default.scss
 │       ├── vendors/ 
-│       │   └──  
+│       │   └── _bootstrap.scss 
 │       └──  main.scss   
 │
 ├── index.html                
@@ -80,6 +86,7 @@ Hospital/
 - **HTML5**
 - **CSS3**
 - **SASS**
+- **BOOTSTRAP**
 
 ## Modularización de Estilos y Media Queries
 
@@ -92,6 +99,20 @@ La estructura de archivos SASS fue organizada de la siguiente manera:
 - main.scss: Archivo principal que importa todos los parciales.
 - _variables.scss: Contiene las variables globales como colores, facilitando su modificación en un solo lugar.
 - _header.scss, _footer.scss, _main.scss: Cada sección principal de la página tiene su propio archivo parcial, donde se definen sus estilos específicos.
+
+## Metodología BEM
+
+Se aplicó la metodología BEM (Bloque-Elemento-Modificador) para nombrar las clases CSS, asegurando una estructura clara y legible. Esta convención de nombres permite que el código sea más escalable y fácil de entender, ya que cada clase sigue una jerarquía lógica y se organiza de acuerdo con los elementos y sus modificaciones.
+
+## Integración de Bootstrap y Modificaciones con SASS
+
+Bootstrap se integró al proyecto como base para una estructura rápida y responsive. A través de SASS, se personalizaron algunas variables de Bootstrap para que se ajusten al diseño general, como colores y espaciados. Las modificaciones se realizaron en el archivo _bootstrap.scss, donde se importaron los componentes necesarios de Bootstrap, optimizando el peso final del CSS y ajustando los estilos al diseño deseado.
+
+## Instrucciones para Visualizar el Proyecto en un Navegador
+
+1. Clona el repositorio y abre el proyecto en Visual Studio Code.
+2. Usa la extensión Live Server para ver el sitio de forma local en tu navegador.
+3. Accede a las diferentes versiones del proyecto a través de las rutas indicadas en cada carpeta (v1, v2, v3).
 
 ## Creditos
 - Logo [Pngwing](https://www.pngwing.com/)
