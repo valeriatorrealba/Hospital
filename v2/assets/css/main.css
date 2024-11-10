@@ -142,6 +142,7 @@ ul {
     top: 0;
     position: relative;
     float: right;
+    width: -moz-fit-content;
     width: fit-content;
     background-color: transparent;
   }
@@ -197,13 +198,16 @@ p {
 .footer__nav {
   padding: 10px;
 }
+
 .footer__nav nav ul {
   list-style: none;
 }
+
 .footer__nav nav li {
   display: block;
   padding: 5px;
 }
+
 .footer__nav nav a {
   text-decoration: none;
   color: #ffffff;
@@ -452,6 +456,6 @@ input {
 body {
   background-color: #f0efef;
   font-family: "Poppins", sans-serif;
-}
+} 
 
 /*# sourceMappingURL=main.css.map */

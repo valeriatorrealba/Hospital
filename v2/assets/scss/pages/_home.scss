@@ -1,4 +1,3 @@
-@use '../abstracts/_variables' as *;
 /*--------------------------------------------------------------
 # Home Sections
 --------------------------------------------------------------*/
@@ -70,7 +69,7 @@
     margin: 0 20px;
     padding: 10px;
     text-align: center;
-    background-color: $quaternary-color;
+    background-color: rgba(219,52,152,0.4);
     border-radius: 8%;
 }
 .box__icon{
