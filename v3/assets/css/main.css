@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -249,10 +252,10 @@ button {
 # Home Sections
 --------------------------------------------------------------*/
 .section {
-  padding: 30px;
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
+  flex-flow: row wrap;
+  padding: 30px;
   align-content: center;
   width: 80%;
   margin: 0 auto;
@@ -312,8 +315,8 @@ button {
 .services__box {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .box__container {
@@ -446,6 +449,22 @@ input {
 body {
   background-color: #f0efef;
   font-family: "Poppins", sans-serif;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  padding: 15px;
+}
+
+.card-img-top {
+  border-radius: 150px;
+}
+
+.card-text {
+  font-size: 12px;
+  padding: 10px 5px;
 }
 
 /*!

@@ -25,8 +25,7 @@
     overflow: hidden;
     background-color: $primary-color;
     max-height: 0;
-    transition: max-height .5s ease-out;
-    
+    transition: max-height .5s ease-out;    
     ul{    
         list-style: none;    
     }
@@ -68,14 +67,12 @@
     padding: 40px 20px;
 }
 
-
 .hamburger-line {
     background: $secondary-color;
     display: block;
     height: 2px;
     position: relative;
-    width: 24px;
-    
+    width: 24px;    
 }
 
 .hamburger-line::before, .hamburger-line::after{

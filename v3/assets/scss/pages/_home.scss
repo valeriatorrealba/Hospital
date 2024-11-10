@@ -1,12 +1,11 @@
-@use '../abstracts/_variables' as *;
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
 /*--------------------------------------------------------------
 # Home Sections
 --------------------------------------------------------------*/
 .section{
+    @include flexbox;
     padding: 30px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     align-content: center;
     width: 80%;
     margin: 0 auto;
@@ -28,7 +27,6 @@
     margin-bottom: 15px;
     font-size: 3rem;
 }
-
 .hero__title--size{
     font-size: 2em;
 }
@@ -41,7 +39,6 @@
         font-size: 2rem;
     }
 }
-
 
 /*--------------------------------------------------------------
 # Services Section
@@ -61,9 +58,7 @@
 
 .services__box{
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    @include flexbox;
 }
 .box__container{
     width: 400px;
@@ -112,7 +107,6 @@
     width: 250px;
     height:250px;
     border-radius:150px;
-
 }
 .testimonials__title{
     padding: 5px 0;
