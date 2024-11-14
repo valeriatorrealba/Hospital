@@ -119,9 +119,9 @@ Bootstrap se integró al proyecto como base para una estructura rápida y respon
 - Imágenes [Unsplash](https://unsplash.com/)
 - Iconos [Fontawesome](https://fontawesome.com/)
 
-## PDF Taller: Análisis de la Incorporación de JavaScript en el Proyecto del Hospital
+## PDF 
 
-Taller 1 [Taller 1](https://github.com/valeriatorrealba/Hospital/blob/main/pdf/Taller1%20ValeriaTorrealba.pdf)
+Taller 1 [Taller: Análisis de la Incorporación de JavaScript en el Proyecto del Hospital](https://github.com/valeriatorrealba/Hospital/blob/main/pdf/Taller1%20ValeriaTorrealba.pdf)
 
 ## Autor
 Desarrollado por Valeria Torrealba.
